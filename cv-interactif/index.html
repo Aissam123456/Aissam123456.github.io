@@ -1,0 +1,249 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV Personnel Interactif</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header id="header">
+
+        <img src="photo.jpg" alt="Photo de profil">
+
+        <h1>MIDINE AISSAM</h1>
+
+        <h2>Étudiant en Informatique</h2>
+
+        <div class="infos">
+            <p>Email : aissam@gmail.com</p>
+            <p>GitHub : github.com/aissam</p>
+            <p>LinkedIn : linkedin.com/in/aissam</p>
+        </div>
+
+    </header>
+
+    <!-- MENU -->
+
+    <nav>
+
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#formation">Formation</a>
+        <a href="#projects">Projets</a>
+        <a href="#languages">Langues</a>
+        <a href="#interests">Centres d’intérêt</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <!-- A PROPOS -->
+
+    <section id="about">
+
+        <h2>À propos</h2>
+
+        <p>
+            Je suis étudiant en deuxième année en informatique.
+            Passionné par le développement web, les nouvelles
+            technologies et la programmation.
+            Je cherche à développer mes compétences en ReactJS
+            et JavaScript afin de devenir développeur web.
+        </p>
+
+    </section>
+
+    <!-- COMPETENCES -->
+
+    <section id="skills">
+
+        <h2>Compétences</h2>
+
+        <div class="skill">
+            <span>HTML</span>
+
+            <div class="bar">
+                <div class="progress html"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>CSS</span>
+
+            <div class="bar">
+                <div class="progress css"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>JavaScript</span>
+
+            <div class="bar">
+                <div class="progress js"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>ReactJS</span>
+
+            <div class="bar">
+                <div class="progress react"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>jQuery</span>
+
+            <div class="bar">
+                <div class="progress jquery"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FORMATION -->
+
+    <section id="formation">
+
+        <h2>Formation</h2>
+
+        <div class="formation-item">
+
+            <h3>2024 - Présent</h3>
+
+            <div class="details">
+                <p>Licence Informatique - FSSM</p>
+            </div>
+
+        </div>
+
+        <div class="formation-item">
+
+            <h3>2022 - 2023</h3>
+
+            <div class="details">
+                <p>Baccalauréat Sciences Mathématiques A</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJETS -->
+
+    <section id="projects">
+
+        <h2>Projets</h2>
+
+        <div class="project-card">
+
+            <h3>Gestion des étudiants</h3>
+
+            <p>
+                Application web permettant la gestion
+                des étudiants avec ajout, suppression
+                et recherche. en utilisant HTML , CSS , JS.
+            </p>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>CV Interactif</h3>
+
+            <p>
+                Création d’un CV dynamique avec
+                HTML, CSS, jQuery et ReactJS.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- LANGUES -->
+
+    <section id="languages">
+
+        <h2>Langues</h2>
+
+        <ul>
+            <li>Arabe : Langue maternelle</li>
+            <li>Français : A2</li>
+            <li>Anglais : B1</li>
+        </ul>
+
+    </section>
+
+    <!-- CENTRES D'INTERET -->
+
+    <section id="interests">
+
+        <h2>Centres d’intérêt</h2>
+
+        <ul>
+            <li>Développement Web</li>
+            <li>Physique moderne</li>
+            <li>Intelligence artificielle</li>
+            <li>Technologies numériques</li>
+        </ul>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="nom"
+                placeholder="Votre nom"
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Votre email"
+            >
+
+            <textarea
+                id="message"
+                placeholder="Votre message"
+            ></textarea>
+
+            <button type="submit">
+                Envoyer
+            </button>
+
+        </form>
+
+        <p id="error"></p>
+
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 MIDINE AISSAM - CV Personnel Interactif</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
